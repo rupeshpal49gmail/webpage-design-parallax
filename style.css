@@ -7,6 +7,7 @@
 html,
 body {
   height: 100%;
+  margin: 0;
   font-size: 16px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -20,21 +21,22 @@ body {
 }
 
 .img2 {
-  background-image: url("https://img.freepik.com/premium-photo/beautiful-butterfly-images-brighten-your-day_1199394-94530.jpg?semt=ais_hybrid");
+  background-image: url("./images/bcg-img2.jpeg");
   min-height: 400%;
 }
 
 .img3 {
-  background-image: url("https://img.freepik.com/free-photo/wild-deer-nature_23-2151474241.jpg?semt=ais_hybrid");
+  background-image: url("./images/bcg-img3.jpg");
   min-height: 400%;
 }
 
 .img1,
 .img2,
 .img3 {
-  background-position: center;
+  position: relative;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .imgtext {
@@ -49,7 +51,24 @@ body {
 }
 
 .textBg {
-  background-color: #170c0c;
+  background-color: #716c6c;
   color: #fff;
   padding: 20px;
+  opacity: 0.9;
+  border-radius: 2px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #111;
+}
+
+.section-dark {
+  background-color: #111;
+  color: #fff;
 }
