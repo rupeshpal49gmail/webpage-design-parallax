@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.img1 {
+  background-image: url("https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg");
+  min-height: 100%;
+}
+
+.img2 {
+  background-image: url("https://img.freepik.com/premium-photo/beautiful-butterfly-images-brighten-your-day_1199394-94530.jpg?semt=ais_hybrid");
+  min-height: 400%;
+}
+
+.img3 {
+  background-image: url("https://img.freepik.com/free-photo/wild-deer-nature_23-2151474241.jpg?semt=ais_hybrid");
+  min-height: 400%;
+}
+
+.img1,
+.img2,
+.img3 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgtext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.textBg {
+  background-color: #170c0c;
+  color: #fff;
+  padding: 20px;
+}
